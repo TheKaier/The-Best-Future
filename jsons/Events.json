@@ -1,0 +1,66 @@
+[
+    {
+        "name":"China",
+        "text":"Choose your civilised leader",
+        "choices":[
+        {
+        "text":"Qin Shi Huang",
+        "uniques":[
+        "Provides a [Qin Shi Huang] in your first [1] cities for free",
+        "Unavailable <if [Qin Shi Huang] is constructed by anybody>",
+		    ],
+        },
+        {
+        "text":"Emperor Wu of Han",
+        "uniques":[
+        "Provides a [Emperor Wu of Han] in your first [1] cities for free",
+        "Unavailable <if [Emperor Wu of Han] is constructed by anybody>",
+		    ],
+        },
+        {
+        "text":"Emperor Taizong of Tang",
+        "uniques":[
+        "Provides a [Emperor Taizong of Tang] in your first [1] cities for free",
+        "Unavailable <if [Emperor Taizong of Tang] is constructed by anybody>",
+		    ],
+        },
+        {
+        "text":"Emperor Taizu of Song",
+        "uniques":[
+        "Provides a [Emperor Taizu of Song] in your first [1] cities for free",
+        "Unavailable <if [Emperor Taizu of Song] is constructed by anybody>",
+		    ],
+        },
+        
+        
+        
+        ]
+    },
+    {
+        "name":"Monument Builders",
+        "text":"",
+        "choices":[
+        {
+        "text":"",
+        "uniques":[
+        "[+5]% Production when constructing [All] wonders [in all cities] <for [1000] turns>",
+        "[+15]% Production when constructing [All] wonders [in all cities] <for [15] turns>",
+		    ],
+        },
+        {
+        "text":"",
+        "uniques":[
+        "Gain enough Faith for [33]% of a Great Prophet <after founding a Pantheon>",
+        "Empire enters a [5]-turn Golden Age <(modified by game speed)>",
+        ]
+        },
+        {
+        "text":"",
+        "uniques":[
+        "[+5]% Strength <for [All] units> <for [15] turns>",
+        "[+15]% Production when constructing [Military] units [in all cities] <for [15] turns>",
+        ]
+        },
+        ]
+    },
+]
