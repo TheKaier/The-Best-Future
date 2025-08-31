@@ -165,7 +165,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [All] units [in all cities]",
+                    "[+15]% Production when constructing [Military] units [in all cities]",
                     "Free [Great General] appears",
                     "Provides [1] [Policies Point] <hidden from users>",
                 ],

@@ -862,7 +862,14 @@
     
     ],
     },
-    
+    {
+    "name": "Mongol Terror", // 
+    "uniques": [
+    "[Target Unit] gains the [All over the place] status for [3] turn(s) <upon damaging a [Military] unit>",
+    "[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
+    "[This Unit] gains [2] movement <upon damaging a [Military] unit>",
+    ],
+    },
     
     
     

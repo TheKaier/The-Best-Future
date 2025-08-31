@@ -9,7 +9,7 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
 		"[-20]% production cost <after adopting [Citizenship]> <hidden from users>"
-		
+		"Can instantly construct a [Pasture] improvement <for [2] movement> <[2] times> <for [The Huns] Civilizations>",
 		
 		
 		],
@@ -172,8 +172,13 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Can instantly construct a [Fishing Boats] improvement <for [4] movement> <[4] times> <after which this unit is consumed>",
+			"May create improvements on water resources",
+			"Uncapturable",
+			"Automation is a primary action"
+		]
 	},
 	{
 		"name": "Trireme",
@@ -281,8 +286,14 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus",
+		
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+		],
 		"promotions": ["Accuracy I"],
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 		"attackSound": "arrow"
 	},
 	{
@@ -365,10 +376,17 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
-		"[-1] Sight", "Can only attack [City] units"],
+		"uniques": [
+		"[+300]% Strength <vs cities> <when attacking>",
+		"No defensive terrain bonus",
+		"[-33]% Strength <when defending>",
+    "[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
+		],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
+		"civilopediaText":[
+        {"text": "Suppression","link": "UnitPromotion/Suppression"},
+    ],
 	},
 	{
 		"name": "Pictish Warrior",
@@ -711,7 +729,7 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Great Generals I", "Quick Study"],
+		"promotions": ["Great Generals I", "Quick Study", "Mongol Terror"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
 	},

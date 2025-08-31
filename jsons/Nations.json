@@ -87,23 +87,23 @@
 		"Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
 		"[+1 Culture, +1 Science, +1 Gold] per [1] social policies adopted",
 		"Each city founded increases culture cost of policies [33]% less than normal",
-		"Comment [Each Traditional policy contributes +3% Culture, each Liberty policy contributes +2% Production capacity, and each Honor policy contributes +2% Strength. The opening and closing policies are not included]",
+		"Comment [Each Traditional policy contributes +3% Culture, each Liberty policy contributes +3% Production capacity, and each Honor policy contributes +3% Strength. The opening and closing policies are not included]",
 		
 		"[+3]% [Culture] <after adopting [Aristocracy]> <hidden from users>",
 			"[+3]% [Culture] <after adopting [Legalism]> <hidden from users>",
 			"[+3]% [Culture] <after adopting [Oligarchy]> <hidden from users>",
 			"[+3]% [Culture] <after adopting [Landed Elite]> <hidden from users>",
 			"[+3]% [Culture] <after adopting [Monarchy]> <hidden from users>",
-			"[+2]% [Production] <after adopting [Collective Rule]> <hidden from users>",
-			"[+2]% [Production] <after adopting [Citizenship]> <hidden from users>",
-			"[+2]% [Production] <after adopting [Republic]> <hidden from users>",
-			"[+2]% [Production] <after adopting [Representation]> <hidden from users>",
-			"[+2]% [Production] <after adopting [Meritocracy]> <hidden from users>",
-			"[+2]% Strength <after adopting [Warrior Code]> <hidden from users>",
-			"[+2]% Strength <after adopting [Discipline]> <hidden from users>",
-			"[+2]% Strength <after adopting [Military Tradition]> <hidden from users>",
-			"[+2]% Strength <after adopting [Military Caste]> <hidden from users>",
-			"[+2]% Strength <after adopting [Professional Army]> <hidden from users>"
+			"[+3]% [Production] <after adopting [Collective Rule]> <hidden from users>",
+			"[+3]% [Production] <after adopting [Citizenship]> <hidden from users>",
+			"[+3]% [Production] <after adopting [Republic]> <hidden from users>",
+			"[+3]% [Production] <after adopting [Representation]> <hidden from users>",
+			"[+3]% [Production] <after adopting [Meritocracy]> <hidden from users>",
+			"[+3]% Strength <after adopting [Warrior Code]> <hidden from users>",
+			"[+3]% Strength <after adopting [Discipline]> <hidden from users>",
+			"[+3]% Strength <after adopting [Military Tradition]> <hidden from users>",
+			"[+3]% Strength <after adopting [Military Caste]> <hidden from users>",
+			"[+3]% Strength <after adopting [Professional Army]> <hidden from users>"
 		
 		],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
@@ -140,8 +140,8 @@
 		"[Great General] is earned [50]% faster",
 		"Triggers a [China] event <upon entering a new era>",
 		"Triggers a [China] event <upon constructing [Palace]>",
-		"Comment [[+10]% [Culture] from every [Leader Building]]",
-		"Comment [[+10]% [Science] from every [Leader Building]]",
+		"Comment [[+15]% [Culture] from every [Leader Building]]",
+		"Comment [[+15]% [Science] from every [Leader Building]]",
 		],
 		"civilopediaText":[
         {"text": "Qin Shi Huang","link": "Building/Qin Shi Huang"},
@@ -184,7 +184,7 @@
 		"uniques": [
 		"[+1 Science, +1 Production, +1 Gold] from every [Wonder]",
 		"[+25]% Production when constructing [All] wonders [in all cities]",
-		"[+10]% Production when constructing [All] buildings [in all cities]"
+		"[+15]% Production when constructing [All] buildings [in all cities]"
 		"Triggers a [Monument Builders] event <upon constructing [Wonder]>",
 		
 		
@@ -418,7 +418,7 @@
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
     },
 	{
-		"name": "India",
+		"name": "India",//印度
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
@@ -445,11 +445,11 @@
 		"uniques": [
 		//"[-75]% Unhappiness from [Population] [in all cities]",
         //"[-50]% unhappiness from the number of cities",
-        "[+75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
-        "[+20]% growth [in all cities]",
-        "[+20]% [Food] [in all cities]",
-        "[+5]% growth [in all cities] <for every [1] [Cities Point]>",
-        "[+5]% [Production] [in all cities] <for every [1] [Cities Point]>",
+        "[+50]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "[+30]% growth [in all cities]",
+        "[+10]% [Food] [in all cities]",
+        "[+4]% growth [in all cities] <for every [1] [Cities Point]>",
+        "[+4]% [Production] [in all cities] <for every [1] [Cities Point]>",
 ],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
@@ -601,6 +601,7 @@
 		"uniques": [
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"[+1 Production, +1 Food, +1 Gold] from every [Lumber mill]",
+		"Comment [[[Lumber mill] gain control over [all] tiles in a [1]-tile radius]]",
 		"[+1 Culture] from every [Forest]",
 		"[+20]% Production when constructing [Civilian] units [in all cities]",
 		"Can build [all] improvements at a [+25]% rate",
@@ -796,7 +797,7 @@
         "spyNames": ["Ahmadou", "Ayub", "Badru", "Bokhari", "Guedado", "Adhiambo", "Chinaka", "Laila", "Mariama", "Oni"]
     },
 	{
-		"name": "Mongolia",
+		"name": "Mongolia",//蒙古
 		"leaderName": "Genghis Khan",
 		"adjective": ["Mongolian"],
 		"startBias": ["Plains"],
@@ -818,7 +819,20 @@
 		"innerColor": [255,120,0],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+1] Movement <for [Mounted] units>"],
+		"uniques": [
+		"Comment [[[Pasture] gain control over [all] tiles in a [1]-tile radius]]",
+		"[+1 Production, +1 Culture] from every [Pasture]",
+		"[+1] Movement <for [Mounted] units>",
+		"[+10]% Strength <for [Mounted] units>",
+		"[+100]% to Flank Attack bonuses <for [Mounted] units>",
+		"[Mounted] units gain the [Mongol Terror] promotion",
+		"[+50]% [Horses] resource production",
+		"[-50]% Unhappiness from [Population] [in puppeted cities]",
+		
+		
+		
+		
+		],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -826,7 +840,7 @@
         "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]
     },
 	{
-		"name": "Aztecs",
+		"name": "Aztecs",//阿兹特克
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
 		"startBias": ["Jungle"],
@@ -860,7 +874,7 @@
 
     },
 	{
-		"name": "Inca",
+		"name": "Inca",//印加
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
 		"startBias": ["Hill"],
@@ -928,7 +942,7 @@
         "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]
     },
 	{
-		"name": "The Huns",
+		"name": "The Huns",//匈人
 		"leaderName": "Attila the Hun",
 		"adjective": ["Hunnic"],
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
@@ -952,7 +966,17 @@
 
         "favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": [
+		"[+1 Production, +1 Food] from every [Pasture]",
+		"Cities are razed [3] times as fast",
+		//"Starts with [Animal Husbandry]",
+		//"Starts with [Horseback Riding]",
+		"\"Borrows\" city names from other civilizations in the game",
+		"Comment [[[Worker] can instantly construct a [Pasture] improvement]]",
+		"[+15]% Production when constructing [Military] units [in all cities]",
+		"New [Military] units start with [10] XP [in this city]",
+		
+		],
 		"cities": ["Attila's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
@@ -1050,7 +1074,7 @@
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
     },
 	{
-		"name": "Carthage",
+		"name": "Carthage",//迦太基
 		"leaderName": "Dido",
 		"adjective": ["Carthaginian"],
 		"startBias": ["Coast"],
@@ -1072,7 +1096,10 @@
 		"innerColor": [81, 0, 137],
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
+		"uniques": [
+		"Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]",
+		
+		],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -1181,13 +1208,13 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
 		"uniques": [
-		"[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
-        "[+10]% Strength <when fighting units from a Civilization with more Cities than you> <when fighting in [Friendly Land] tiles>",
+		"[+15]% Strength <when fighting units from a Civilization with more Cities than you>",
+        "[+15]% Strength <when fighting units from a Civilization with more Cities than you> <when fighting in [Friendly Land] tiles>",
         "[+15]% Strength<when fighting in [Enemy Land] tiles>",
         "[+1 Production, +1 Science] from all [Faith] buildings",
         "[+1 Culture] from every [Hill]",
-        "[+2 Production, +2 Culture, +2 Gold] from every [Fort]",
-        "Empire enters a [4]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",
+        "[+1 Production, +1 Gold] from every [Fort]",
+        "Empire enters a [6]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",
         "[Great Artist] is earned [50]% faster",
 		
 		],
@@ -1219,8 +1246,10 @@
 		"innerColor": [24, 63, 66],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
-		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Agriculture]. Each bonus person can only be chosen once.",
-			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+		"uniques": [
+		"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Philosophy]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."
+			],
  		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",

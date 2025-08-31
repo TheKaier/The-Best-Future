@@ -1390,9 +1390,9 @@
         "Unavailable",
         "[+15]% Production when constructing [All] units [in all cities]",
         "[+15]% Production when constructing [All] wonders [in all cities]",
-        "[+1 Faith, +1 Production] from every [Wonder]",
-        "[+10]% [Culture] <hidden from users>",
-        "[+10]% [Science] <hidden from users>",
+        "[+1 Faith, +1 Production, +1 Happiness] from every [Wonder]",
+        "[+15]% [Culture] <hidden from users>",
+        "[+15]% [Science] <hidden from users>",
 		],
     },
 	{
@@ -1401,11 +1401,11 @@
 		"uniques": [
         "Unavailable",
         "Great General provides double combat bonus",
-        "[-25]% Culture cost of natural border growth [in this city]",
+        "[-25]% Culture cost of natural border growth [in all cities]",
         "[+50]% [Horses] resource production",
 		"[+50]% [Iron] resource production",
-		"[+10]% [Culture] <hidden from users>",
-        "[+10]% [Science] <hidden from users>",
+		"[+15]% [Culture] <hidden from users>",
+        "[+15]% [Science] <hidden from users>",
 		],
     },
 	{
@@ -1414,9 +1414,10 @@
 		"uniques": [
         "Unavailable",
         "Free [Great General] appears",
-        "Each city founded increases culture cost of policies [25]% less than normal",
-        "[+10]% [Culture] <hidden from users>",
-        "[+10]% [Science] <hidden from users>",
+        "Each city founded increases culture cost of policies [33]% less than normal",
+        "[1] population [in all cities connected to capital]",
+        "[+15]% [Culture] <hidden from users>",
+        "[+15]% [Science] <hidden from users>",
 		],
     },
 	{
@@ -1425,11 +1426,11 @@
 		"uniques": [
         "Unavailable",
         "[2] Unit Supply per city",
-        "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+        "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
         "[-33]% Gold cost of upgrading <for [Military] units>",
-        "[+1 Gold] [in all cities connected to capital]",
-        "[+10]% [Culture] <hidden from users>",
-        "[+10]% [Science] <hidden from users>",
+        "[+1 Gold, +1 Happiness] [in all cities connected to capital]",
+        "[+15]% [Culture] <hidden from users>",
+        "[+15]% [Science] <hidden from users>",
 		],
     },
 	
@@ -1466,7 +1467,20 @@
 	
 	
 	
-	
+	{
+		"name": "Racetrack",
+		"replaces": "Colosseum",
+		"uniqueTo": "Byzantium",
+		"cost": 120,
+		"maintenance": 1,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Free [Cataphract] appears",
+			"Provides [1] [Horses]"
+		],
+		"requiredTech": "Construction"
+	},
 	
 	
 	
