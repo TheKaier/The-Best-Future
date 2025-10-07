@@ -19,7 +19,28 @@
         
         
         
+        /*Water resource = 水上资源
+Strategic resource = 战略资源
+Luxury resource = 奢侈资源
+Bonus resource = 奖金资源
+Natural Wonder = 自然奇观*/
         
-        
+    ],
+    "unitUniques": [
+    
+    //西班牙
+    "Gain [2] [Gold] <upon discovering a [All] tile> <for [Spain] Civilizations> <(modified by game speed)>",
+    "Gain [5] [Faith] <upon discovering a [Rare feature] tile> <for [Spain] Civilizations> <(modified by game speed)>",
+    "Gain [5] [Science] <upon discovering a [Bonus resource] tile> <for [Spain] Civilizations> <(modified by game speed)>",
+    "Gain [5] [Culture] <upon discovering a [Luxury resource] tile> <for [Spain] Civilizations> <(modified by game speed)>",
+    
+    
+    //德国
+    "Instantly gain [30] [Golden Age points] <upon defeating a [Military] unit> <for [Germany] Civilizations>",
+    
+    
+    
+    
     ]
+    
 }

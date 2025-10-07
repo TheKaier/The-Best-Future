@@ -10,7 +10,7 @@
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
 		"[-20]% production cost <after adopting [Citizenship]> <hidden from users>"
 		"Can instantly construct a [Pasture] improvement <for [2] movement> <[2] times> <for [The Huns] Civilizations>",
-		
+		//"Gain a free [Statue of Zeus] [in this city] <for [2] movement> <[2] times>",//测试
 		
 		],
 		"cost": 70
@@ -62,9 +62,15 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
+		"uniques": [
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+            ]
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Jaguar",
@@ -75,9 +81,15 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
+		"uniques": [
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+            ]
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Brute",
@@ -115,7 +127,13 @@
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
+		"uniques": [
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+            ]
 		"attackSound": "arrow"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Slinger",
@@ -129,8 +147,14 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
+		"uniques": [
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+            ]
 		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Atlatlist",
@@ -361,9 +385,15 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>",
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+		
+		],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Battering Ram",
@@ -381,6 +411,7 @@
 		"No defensive terrain bonus",
 		"[-33]% Strength <when defending>",
     "[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
+    
 		],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
@@ -399,9 +430,14 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+		],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Marauder",
@@ -451,9 +487,13 @@
 		"Comment [[[+10]% Strength] [when not adjacent to a [Companion Cavalry] unit]]",
 		"[+10]% Strength <hidden from users>",
 		"[-10]% Strength <when adjacent to a [Companion Cavalry] unit> <hidden from users>",
+		"[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+		"civilopediaText":[
+        {"text": "Suppression","link": "UnitPromotion/Suppression"},
+    ],
 	},
 	{
 		"name": "African Forest Elephant",
@@ -468,9 +508,15 @@
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			
+			"[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
+			],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
+		"civilopediaText":[
+        {"text": "Suppression","link": "UnitPromotion/Suppression"},
+    ],
 	},
 	{
 		"name": "Cataphract",
@@ -523,9 +569,14 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
+			"Must set up to ranged attack", "[-1] Sight",
+			"[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
+			],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
+		"civilopediaText":[
+        {"text": "Suppression","link": "UnitPromotion/Suppression"},
+    ],
 	},
 	{
 		"name": "Composite Bowman",
@@ -564,9 +615,15 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles",
+		"[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
+		
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+		"civilopediaText":[
+        {"text": "Suppression","link": "UnitPromotion/Suppression"},
+    ],
 	},
 	{
 		"name": "Mohawk Warrior",
@@ -612,10 +669,16 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought",
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+		
+		],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 		//"Requires [Mercenary Army]" in BNW
 	},
 	{
@@ -657,8 +720,13 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+		"[Target Unit] gains the [Suppression] status for [3] turn(s) <upon damaging a [Military] unit>",
+		],
 		"attackSound": "arrow"
+		"civilopediaText":[
+        {"text": "Suppression","link": "UnitPromotion/Suppression"},
+    ],
 		//Camel Archer should have no penalty attacking cities
 	},
 	{
@@ -673,9 +741,15 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight",
+		
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+		],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
 	},
@@ -711,8 +785,15 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+            
+		
+		],
 		"attackSound": "horse"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Keshik",
@@ -728,9 +809,15 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+		
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+		],
 		"promotions": ["Great Generals I", "Quick Study", "Mongol Terror"],
 		"attackSound": "arrow"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 		// Keshik should have no penalty attacking cities
 	},
 	{
@@ -757,8 +844,14 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
+		"uniques": [
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+            ]
 		"promotions": ["[Chu-Ko-Nu] ability"],
 		"attackSound": "crossbow"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Longbowman",
@@ -773,8 +866,14 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
+		"uniques": [
+		"[Target Unit] gains the [Vulnerable] status for [3] turn(s) <upon damaging a [Military] unit>",
+            ]
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
+		"civilopediaText":[
+        {"text": "Vulnerable","link": "UnitPromotion/Vulnerable"},
+    ],
 	},
 	{
 		"name": "Trebuchet",

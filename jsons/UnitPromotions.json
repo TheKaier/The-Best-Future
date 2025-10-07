@@ -2,7 +2,11 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion",
+		
+		
+		
+		],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
@@ -863,6 +867,27 @@
     ],
     },
     {
+    "name": "The rout", //溃军
+    "uniques": [
+    "[+50]% XP gained from combat",
+    "[-5]% Strength <when below [90] HP>",
+    "[-5]% Strength <when below [80] HP>",
+    "[-5]% Strength <when below [70] HP>",
+    "[-5]% Strength <when below [60] HP>",
+    "[-5]% Strength <when below [50] HP>",
+    "[-5]% Strength <when below [40] HP>",
+    "[-5]% Strength <when below [30] HP>",
+    "[-5]% Strength <when below [20] HP>",
+    "[-5]% Strength <when below [10] HP>",
+    
+    
+    
+    
+    
+    
+    ],
+    },
+    {
     "name": "Mongol Terror", // 
     "uniques": [
     "[Target Unit] gains the [All over the place] status for [3] turn(s) <upon damaging a [Military] unit>",
@@ -870,9 +895,27 @@
     "[This Unit] gains [2] movement <upon damaging a [Military] unit>",
     ],
     },
+    {
+    "name": "Furor Teutonicus", // 
+    "uniques": [
+    "[Target Unit] gains the [The rout] status for [3] turn(s) <upon damaging a [Military] unit>",
     
+    ],
+    },
+    {
+    "name": "Phoenician Heritage", // 
+    "uniques": [
+    "[Target Unit] gains the [String] status for [3] turn(s) <upon damaging a [Water] unit>",
     
+    ],
+    },
+    {
+    "name": "String", //接弦
+    "uniques": [
+    "Cannot move",
     
+    ],
+    },
     
     
     

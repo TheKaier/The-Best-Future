@@ -446,7 +446,7 @@
 		//"[-75]% Unhappiness from [Population] [in all cities]",
         //"[-50]% unhappiness from the number of cities",
         "[+50]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
-        "[+30]% growth [in all cities]",
+        "[+20]% growth [in all cities]",
         "[+10]% [Food] [in all cities]",
         "[+4]% growth [in all cities] <for every [1] [Cities Point]>",
         "[+4]% [Production] [in all cities] <for every [1] [Cities Point]>",
@@ -457,7 +457,7 @@
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
     },
 	{
-		"name": "Germany",
+		"name": "Germany",//德国
 		"leaderName": "Otto von Bismarck",
 		"adjective": ["German"],
 		"preferredVictoryType": "Scientific",
@@ -478,8 +478,17 @@
 		"innerColor": [37, 43, 33],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
-		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
-			"[-25]% maintenance costs <for [Land] units>"],
+		"uniques": [
+		"[All] units gain the [Furor Teutonicus] promotion",
+		"Instantly gain [30] [Golden Age points] <upon defeating a [Military] unit>",//不生效，全球
+		"[+1 Culture, +1 Science] per [1] social policies adopted",
+		
+		
+		
+		
+		
+		
+			],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -661,7 +670,7 @@
         "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]
     },
 	{
-		"name": "Polynesia",
+		"name": "Polynesia",//毛利
 		"leaderName": "Kamehameha I",
 		"adjective": ["Polynesia"],
 		"startBias": ["Coast"],
@@ -683,9 +692,16 @@
 		"innerColor": [255,255,75],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
-		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+		"uniques": [
+		"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-            "[+1] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>"],
+            "[+1] Sight <for [Embarked] units>",
+            "[+1] Movement <for [Embarked] units>",
+            "[+10]% Strength <within [3] tiles of a [Moai]>",
+            "Comment [Gain control over [Water] tiles in a [2]-tile radius]",
+            
+            
+            ],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -716,7 +732,7 @@
 		"uniqueName": "Father Governs Children",
 		"uniques": [
 		"[-33]% Culture cost of adopting new Policies",
-        "Each city founded increases culture cost of policies [-50]% less than normal",
+        "Each city founded increases culture cost of policies [50]% less than normal",
         "[+1 Gold, +1 Faith, +1 Culture, +1 Science, +1 Happiness] per [1] social policies adopted",
 		
 		],
@@ -727,7 +743,7 @@
         "spyNames": ["Aran", "Chanarong", "Kiet", "Niran", "Virote", "Kulap", "Mayuree", "Phueng", "Ratana", "Tola"]
     },
 	{
-		"name": "Spain",
+		"name": "Spain",//西班牙
 		"leaderName": "Isabella",
 		"adjective": ["Spanish"],
 		"startBias": ["Coast"],
@@ -748,8 +764,16 @@
 		"innerColor": [255,168,168],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Seven Cities of Gold",
-		"uniques": ["[+100 Gold] for discovering a Natural Wonder (bonus enhanced to [+500 Gold] if first to discover it)",
-			"[+1 Happiness] for every known Natural Wonder", "[+100]% Yield from every [Natural Wonder]"],
+		"uniques": [
+		//"Comment [Gain [3] [Science] <upon discovering a [Rare feature] tile> <(modified by game speed)>]",
+			"Gain [2] [Gold] <upon discovering a [All] tile> <(modified by game speed)>",
+    "Gain [5] [Faith] <upon discovering a [Rare feature] tile> <(modified by game speed)>",
+    "Gain [5] [Science] <upon discovering a [Bonus resource] tile> <(modified by game speed)>",
+    "Gain [5] [Culture] <upon discovering a [Luxury resource] tile> <(modified by game speed)>",
+			//这是不生效的，别处实现
+			
+			
+			],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
@@ -898,9 +922,18 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
-			"[-50]% maintenance on road & railroads",
-			"No Maintenance costs for improvements in [Hill] tiles"],
+		"uniques": [
+		"Units ignore terrain costs when moving into any tile with Hills",
+			"No Maintenance costs for improvements in [Hill] tiles",
+			"[+20]% growth [in all cities connected to capital]",
+			"[+1 Happiness, +1 Food] [in all cities] <in tiles adjacent to [Mountain] tiles>",
+			"[+20]% [Culture] [in all cities] <in tiles adjacent to [Mountain] tiles>",
+			"[+20]% [Science] [in all cities] <in tiles adjacent to [Mountain] tiles>",
+			"[+1 Faith, +2 Food] from every [Mountain]",
+			"[+1 Culture, +1 Gold] from every [Terrace farm]",
+			
+			
+			],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
@@ -981,7 +1014,7 @@
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
 	{
-		"name": "The Netherlands",
+		"name": "The Netherlands",//荷兰
 		"leaderName": "William of Orange",
 		"adjective": ["Dutch"],
 		"startBias": ["Grassland"],
@@ -1002,7 +1035,16 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
-		"uniques": ["Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
+		"uniques": [
+		"Retain [100]% of the happiness from a luxury after the last copy has been traded away",
+		"[+1 Happiness, +2 Gold] from [{improved} {Luxury resource}] tiles [in all cities]",
+		"[+2 Science, +2 Culture] from each Trade Route",
+		"[+2 Production] per [5] population [in all cities]",
+		
+		
+		
+		
+		],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "The Hague", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
         "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
     },
@@ -1097,7 +1139,13 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
-		"Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]",
+		"Gain a free [Harbor] [in all coastal cities]",
+		"Land units may cross [Mountain] tiles after the first [Great General] is earned",
+		"Comment [[[Fishing Boats] gain control over [Water] tiles in a [1]-tile radius]]",
+		"[+100]% to Flank Attack bonuses <for [Water] units>",
+		"[Water] units gain the [Phoenician Heritage] promotion",
+		"[+1 Happiness, +1 Culture] [in all cities connected to capital]",
+		
 		
 		],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
@@ -1146,7 +1194,7 @@
         "spyNames": ["Basil", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
     },
 	{
-		"name": "Celts",
+		"name": "Celts",//凯尔特
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
 		"startBias": ["Forest"],
@@ -1212,7 +1260,7 @@
         "[+15]% Strength <when fighting units from a Civilization with more Cities than you> <when fighting in [Friendly Land] tiles>",
         "[+15]% Strength<when fighting in [Enemy Land] tiles>",
         "[+1 Production, +1 Science] from all [Faith] buildings",
-        "[+1 Culture] from every [Hill]",
+        "[+1 Culture] from every [{unimproved} {Hill}]",
         "[+1 Production, +1 Gold] from every [Fort]",
         "Empire enters a [6]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",
         "[Great Artist] is earned [50]% faster",
